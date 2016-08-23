@@ -1,0 +1,39 @@
+﻿<Window x:Class="DataGridWithStyle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataGridWithStyle"
+        mc:Ignorable="d"
+        Title="MainWindow" SizeToContent="WidthAndHeight">
+
+    <Window.Resources>
+        <DataTemplate x:Key='MonthCell'>
+            <Grid>
+                <DataGrid ItemsSource='{Binding JobPredictions}' HeadersVisibility="None" AutoGenerateColumns='False' x:Name='amountsDataGrid'>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding='{Binding .}' />
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </DataTemplate>
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto"  />
+            <RowDefinition Height="Auto"  />
+        </Grid.RowDefinitions>
+
+        <DataGrid x:Name="dataGrid" AutoGenerateColumns="False" Margin="10" HeadersVisibility="None" SelectedItem="{Binding SelectedRow}" SelectionUnit="FullRow" ItemsSource="{Binding JobPredictions}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Phase" Binding="{Binding PhaseName}"/>
+                <DataGridTextColumn Header="Date" Binding="{Binding Date, StringFormat=\{0:MM-dd-yy\}}" />
+                <DataGridTextColumn Header="Percent" Binding="{Binding PercentComplete, StringFormat={}{0} %}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Grid.Row="1" Content="Select Row Details:" Margin="10,10,10,0" />
+        <TextBox IsReadOnly="True" Grid.Row="2" TextWrapping="Wrap" Margin="10,0,10,5" Text="{Binding SelectedRowText}" />
+    </Grid>
+</Window>

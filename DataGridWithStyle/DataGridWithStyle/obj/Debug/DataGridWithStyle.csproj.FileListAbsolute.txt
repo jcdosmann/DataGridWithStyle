@@ -1,0 +1,14 @@
+c:\users\jon.dosmann\documents\visual studio 2015\Projects\DataGridWithStyle\DataGridWithStyle\bin\Debug\DataGridWithStyle.exe.config
+c:\users\jon.dosmann\documents\visual studio 2015\Projects\DataGridWithStyle\DataGridWithStyle\obj\Debug\DataGridWithStyle.csprojResolveAssemblyReference.cache
+c:\users\jon.dosmann\documents\visual studio 2015\Projects\DataGridWithStyle\DataGridWithStyle\obj\Debug\MainWindow.g.cs
+c:\users\jon.dosmann\documents\visual studio 2015\Projects\DataGridWithStyle\DataGridWithStyle\obj\Debug\App.g.cs
+c:\users\jon.dosmann\documents\visual studio 2015\Projects\DataGridWithStyle\DataGridWithStyle\obj\Debug\DataGridWithStyle_MarkupCompile.cache
+c:\users\jon.dosmann\documents\visual studio 2015\Projects\DataGridWithStyle\DataGridWithStyle\obj\Debug\DataGridWithStyle_MarkupCompile.lref
+c:\users\jon.dosmann\documents\visual studio 2015\Projects\DataGridWithStyle\DataGridWithStyle\bin\Debug\DataGridWithStyle.exe
+c:\users\jon.dosmann\documents\visual studio 2015\Projects\DataGridWithStyle\DataGridWithStyle\bin\Debug\DataGridWithStyle.pdb
+c:\users\jon.dosmann\documents\visual studio 2015\Projects\DataGridWithStyle\DataGridWithStyle\obj\Debug\MainWindow.baml
+c:\users\jon.dosmann\documents\visual studio 2015\Projects\DataGridWithStyle\DataGridWithStyle\obj\Debug\DataGridWithStyle.g.resources
+c:\users\jon.dosmann\documents\visual studio 2015\Projects\DataGridWithStyle\DataGridWithStyle\obj\Debug\DataGridWithStyle.Properties.Resources.resources
+c:\users\jon.dosmann\documents\visual studio 2015\Projects\DataGridWithStyle\DataGridWithStyle\obj\Debug\DataGridWithStyle.csproj.GenerateResource.Cache
+c:\users\jon.dosmann\documents\visual studio 2015\Projects\DataGridWithStyle\DataGridWithStyle\obj\Debug\DataGridWithStyle.exe
+c:\users\jon.dosmann\documents\visual studio 2015\Projects\DataGridWithStyle\DataGridWithStyle\obj\Debug\DataGridWithStyle.pdb
